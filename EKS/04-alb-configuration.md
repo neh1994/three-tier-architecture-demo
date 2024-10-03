@@ -28,8 +28,7 @@ eksctl create iamserviceaccount \
 
 ## Deploy ALB controller
 
-Add helm repo
-#helm repo add <repo-name> <repo-url>
+Add helm repo: helm repo add <repo-name> <repo-url>
 ```
 helm repo add eks https://aws.github.io/eks-charts
 ```
